@@ -5,9 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -p tsconfig.app.json && vite build",
-    "preview": "vite preview",
-    "typecheck": "tsc -p tsconfig.app.json"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "antlr4": "^4.13.2"
